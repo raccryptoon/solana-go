@@ -709,7 +709,7 @@ func findAssociatedTokenAddressAndBumpSeed(
 ) (PublicKey, uint8, error) {
 	return FindProgramAddress([][]byte{
 		walletAddress[:],
-		Token2022ProgramID[:],
+		TokenProgramID[:],
 		splTokenMintAddress[:],
 	},
 		programID,
