@@ -108,7 +108,7 @@ func (inst Create) Build() *Instruction {
 			IsWritable: false,
 		},
 		{
-			PublicKey:  solana.TokenProgramID,
+			PublicKey:  solana.Token2022ProgramID,
 			IsSigner:   false,
 			IsWritable: false,
 		},
